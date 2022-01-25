@@ -9,10 +9,14 @@ Scraps of code I have obtained from [here](https://sites.google.com/site/patrick
 
 Data information
 
-`char s_remt[12] = "/xremote";             // remote buffer`
+```cpp
+char s_remt[12] = "/xremote";             // remote buffer
+```
 
 xremote operation
 
-`send_udp(s_remt, 12);`
+```cpp
+send_udp(s_remt, 12);
+```
 
 Hopefully this is enough for future me to work out getting data from the sound board
